@@ -1,6 +1,6 @@
 public class  LongestSubstringwoRepetition{
   public static void main(String[] args){
-    // Give user input here
+    // Give user-input here
     // call the method
     int result = lengthOfLongestSubstring(str);
   }
