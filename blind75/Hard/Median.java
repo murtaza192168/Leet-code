@@ -1,6 +1,6 @@
 class Median{
   public static void main(String[] args){
-    //give user input here
+    //give user-input here
 
     // Call method
     double[] result = findMedianSortedArrays(arr1, arr2);
@@ -9,7 +9,7 @@ class Median{
 }
 
 class Solution {
-    // USING MERGE SORT ALGORITHM: TC = log(m + n) = log(size)
+    // USING MERGE SORT APPROACH: TC = log(m + n) = log(size)
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // first merge both sorted arrays by declaring size of new container arr as well as new arr declaration
         int total_size = nums1.length + nums2.length;
