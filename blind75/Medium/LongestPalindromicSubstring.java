@@ -1,6 +1,6 @@
 public class LongestPalindromicSubstring{
   public static void main(String[] args){
-    //Give user input here
+    //Give user-input here
 
     // call method
     String substringPalindrome =  longestPalindrome(s);
