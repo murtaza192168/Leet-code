@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MoveZeros {
 
     // method to move zeros and produce the output without using an extra space i.e. a temporary array. (It should be solved at inplace)
@@ -23,10 +25,11 @@ public class MoveZeros {
         // Calling methos using class name, bcz static members on the class instead of a object
         int[] nums_arr = new int[]{2,0,3,0,3,9,0};
         MoveZeros.moveZeros(nums_arr);
+        System.out.println(Arrays.toString(nums_arr));
 
         // print modified arr to produce the result using loop: Using Enhanced ForLoop
-        for(int num: nums_arr){
-            System.out.print(num+" ");
-        }
+//        for(int num: nums_arr){
+//            System.out.print(num+" ");
+//        }
     }
 }
